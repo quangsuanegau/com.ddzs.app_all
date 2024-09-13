@@ -1,0 +1,793 @@
+{
+  "v": "5.6.10",
+  "fr": 30,
+  "ip": 0,
+  "op": 40,
+  "w": 416,
+  "h": 622,
+  "nm": "画板 1",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 108,
+      "h": 104,
+      "u": "",
+      "p": "data:image/png;base64,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",
+      "e": 1
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 2,
+      "nm": "jinbi.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 0,
+              "s": [
+                295,
+                519.75,
+                0
+              ],
+              "to": [
+                -5.667,
+                1.958,
+                0
+              ],
+              "ti": [
+                34.5,
+                69.042,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 10,
+              "s": [
+                261,
+                531.5,
+                0
+              ],
+              "to": [
+                -34.5,
+                -69.042,
+                0
+              ],
+              "ti": [
+                28.833,
+                71,
+                0
+              ]
+            },
+            {
+              "t": 34,
+              "s": [
+                88,
+                105.5,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            54,
+            52,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            67,
+            67,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 147,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 2,
+      "nm": "jinbi.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 0,
+              "s": [
+                295,
+                519.75,
+                0
+              ],
+              "to": [
+                0.667,
+                -4.833,
+                0
+              ],
+              "ti": [
+                34.5,
+                69.042,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 10,
+              "s": [
+                299,
+                490.75,
+                0
+              ],
+              "to": [
+                -34.5,
+                -69.042,
+                0
+              ],
+              "ti": [
+                35.167,
+                64.208,
+                0
+              ]
+            },
+            {
+              "t": 36,
+              "s": [
+                88,
+                105.5,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            54,
+            52,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            67,
+            67,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 147,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 2,
+      "nm": "jinbi.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 0,
+              "s": [
+                295,
+                519.75,
+                0
+              ],
+              "to": [
+                7.167,
+                3,
+                0
+              ],
+              "ti": [
+                34.5,
+                69.042,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 10,
+              "s": [
+                338,
+                537.75,
+                0
+              ],
+              "to": [
+                -34.5,
+                -69.042,
+                0
+              ],
+              "ti": [
+                41.667,
+                72.042,
+                0
+              ]
+            },
+            {
+              "t": 29,
+              "s": [
+                88,
+                105.5,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            54,
+            52,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            67,
+            67,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 147,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 2,
+      "nm": "jinbi.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 0,
+              "s": [
+                295,
+                519.75,
+                0
+              ],
+              "to": [
+                0.625,
+                5.292,
+                0
+              ],
+              "ti": [
+                34.5,
+                69.042,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 10,
+              "s": [
+                298.75,
+                551.5,
+                0
+              ],
+              "to": [
+                -34.5,
+                -69.042,
+                0
+              ],
+              "ti": [
+                35.125,
+                74.333,
+                0
+              ]
+            },
+            {
+              "t": 26,
+              "s": [
+                88,
+                105.5,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            54,
+            52,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            67,
+            67,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 147,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 5,
+      "ty": 2,
+      "nm": "jinbi.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 0,
+              "s": [
+                295,
+                519.75,
+                0
+              ],
+              "to": [
+                8.125,
+                -3.625,
+                0
+              ],
+              "ti": [
+                34.5,
+                69.042,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 10,
+              "s": [
+                343.75,
+                498,
+                0
+              ],
+              "to": [
+                -34.5,
+                -69.042,
+                0
+              ],
+              "ti": [
+                42.625,
+                65.417,
+                0
+              ]
+            },
+            {
+              "t": 32,
+              "s": [
+                88,
+                105.5,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            54,
+            52,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            67,
+            67,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 147,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 6,
+      "ty": 2,
+      "nm": "jinbi.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 0,
+              "s": [
+                295,
+                519.75,
+                0
+              ],
+              "to": [
+                -5.625,
+                -0.083,
+                0
+              ],
+              "ti": [
+                34.5,
+                69.042,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 10,
+              "s": [
+                261.25,
+                519.25,
+                0
+              ],
+              "to": [
+                -34.5,
+                -69.042,
+                0
+              ],
+              "ti": [
+                28.875,
+                68.958,
+                0
+              ]
+            },
+            {
+              "t": 37,
+              "s": [
+                88,
+                105.5,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            54,
+            52,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            67,
+            67,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 147,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 7,
+      "ty": 2,
+      "nm": "jinbi.png",
+      "cl": "png",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 0,
+              "s": [
+                295,
+                519.75,
+                0
+              ],
+              "to": [
+                3.542,
+                4.667,
+                0
+              ],
+              "ti": [
+                34.5,
+                69.042,
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": 0.667,
+                "y": 1
+              },
+              "o": {
+                "x": 0.333,
+                "y": 0
+              },
+              "t": 10,
+              "s": [
+                316.25,
+                547.75,
+                0
+              ],
+              "to": [
+                -34.5,
+                -69.042,
+                0
+              ],
+              "ti": [
+                38.042,
+                73.708,
+                0
+              ]
+            },
+            {
+              "t": 40,
+              "s": [
+                88,
+                105.5,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            54,
+            52,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            67,
+            67,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 147,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

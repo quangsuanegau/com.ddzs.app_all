@@ -1,0 +1,310 @@
+{
+  "package": "com.ddzs.app",
+  "name": "多点知识",
+  "versionName": "1.0.10",
+  "versionCode": 100010,
+  "minPlatformVersion": 1080,
+  "icon": "/assets/icon/logo.png",
+  "features": [
+    {
+      "name": "system.animate"
+    },
+    {
+      "name": "system.request"
+    },
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.shortcut"
+    },
+    {
+      "name": "system.fetch"
+    },
+    {
+      "name": "system.network"
+    },
+    {
+      "name": "service.account"
+    },
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.device"
+    },
+    {
+      "name": "system.brightness"
+    },
+    {
+      "name": "system.app"
+    },
+    {
+      "name": "service.push"
+    },
+    {
+      "name": "system.notification"
+    },
+    {
+      "name": "system.wifi"
+    },
+    {
+      "name": "system.file"
+    },
+    {
+      "name": "service.alipay"
+    },
+    {
+      "name": "service.ad"
+    },
+    {
+      "name": "system.calendar"
+    },
+    {
+      "name": "system.package"
+    },
+    {
+      "name": "system.webview"
+    },
+    {
+      "name": "service.wxpay",
+      "params": {
+        "package": "com.shiyueread.home",
+        "sign": "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",
+        "url": "http://www.syreads.com"
+      }
+    },
+    {
+      "name": "service.share",
+      "params": {
+        "appSign": "MIIGQDCCBCigAwIBAgIJAJa410xto5buMA0GCSqGSIb3DQEBCwUAMIG0MQswCQYDVQQGEwJaSDEQMA4GA1UECAwHSGFpIE5hbjEQMA4GA1UEBwwHSGFpIGtvdTEyMDAGA1UECgwpSGFpbmFuIGd1YW5vdSBOZXR3b3JrIFRlY2hub2xvZ3kgQ28uLCBMdGQxEzARBgNVBAsMCk9wZXJhdGlvbnMxFDASBgNVBAMMC3N5cmVhZHMuY29tMSIwIAYJKoZIhvcNAQkBFhNkZWZhdWx0QGRlZmF1bHQuY29tMB4XDTIyMDMxMDA2NTE1NFoXDTMyMDMwNzA2NTE1NFowgbQxCzAJBgNVBAYTAlpIMRAwDgYDVQQIDAdIYWkgTmFuMRAwDgYDVQQHDAdIYWkga291MTIwMAYDVQQKDClIYWluYW4gZ3Vhbm91IE5ldHdvcmsgVGVjaG5vbG9neSBDby4sIEx0ZDETMBEGA1UECwwKT3BlcmF0aW9uczEUMBIGA1UEAwwLc3lyZWFkcy5jb20xIjAgBgkqhkiG9w0BCQEWE2RlZmF1bHRAZGVmYXVsdC5jb20wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQC01asXcjKm11x0Ai72IdI+4sCVbDGEHbPcIHJDhtw383fuFZnTdEoQnK1+3OUYmHV9YxT9OBwnfuL/rJHOOsyWjZoe9WUkg4zxQIG96Nr1ioAGqjBKfrDeRlEKkxz82jmijOOYRlekLh2JzpLN65oE70lv8pcPRuzXld741igUvd3blG6Ys6vxHM9PyuQW972osgcxH50bOmOR77G7GgdOFYLsEruL4P3m7/9FuTLF3HqHK5NAF3fOs3pp6sPrmFIGnpdsUSjw++O+TT6lsvC2OHhbpST6pHTsMHdrPsavrKkNe80RmmDI1rlFGfvdWkq8gXHEQSO0ueTDBLfe1UabcCAIvoic8rXC31tAKn72LOSbHzl2726+Ogi3hFAY/d1GAQTL5BNRuaAnL5TXUr9wgTD5UJukiroU9fqnlAlW7g2Yg3XO3eC7mO/nfvzyGyTq5h58CzZ+LOm/IFrDNu+fGa0cskgsQxqVJr+/57b9choaDPEsLi2rfQaJFABEqYZMU7CKzhox5DYNRdIK2mh/AenhcmGuBspx9E225a8XU7c6nZLGDn90IldA/gh3QV85qpfZUy49LKD5cP9W5arePlu/tR79W1H2rsjCzylI9Su6hNIMwNQacHuZhc/jbwbKIiPcTX66NlRIxWxEqIjkYbkN/wTJTnOKZM++lXNNuwIDAQABo1MwUTAdBgNVHQ4EFgQUtW8fbqCF3XYRHPjVmKJar0yKNTUwHwYDVR0jBBgwFoAUtW8fbqCF3XYRHPjVmKJar0yKNTUwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAgEAUc2YZGT86jfrdK4G9Gh55xwl7hUYjEnYG04CB5FR9UXNdOmboySMm2ysMx955kALv1I2gSDAPMsctMGMWEhQEO/nDe7GzQ64OyEJeHvVwRPutXylpMbpbKdr0s4gf6qH45KKWGIHSRsF5wmP2TCACKqy470g//6W53hv09aNLgLYPZ0PiyZK22BW/eWh35foHt4pHulm85nnxJoDNSL5gODoWH+quftMywS4X1Nd7DH/uJGOTFgm1rThKcgo1CqFxtTAVemso9guDTaY7uD70MMNAiyBoSRgwBDq5oKh/Wovsx8LZAUGzjC+75AKklo/75w/7RAxhFSmVYRhJmfGWXUQTycyoOkDZYf+WZiKP9ENVQlLePwJm66Nukehs+iyTKbzyzYsLct7A2isQv5xEc7+PXs1xyOvoTFFSfOX4L7PWIDOOSi38erdNxoiEouttbYH8/mU8676jleMFOdDov7/KoGO6wz+OA2Zz7OOLsMLJu8mFd0PNFH68IJNdWLvOO6iMYZk5rnpMAOuCTM6gIyg0Q9pzzxjTfBxs7ojADrNMkioCV0/cAliiaWALg6jerSO2tGBtC5YC/yue/IjyKk678bLVMO3XT5LZ0GZY9R7/GKcSi8lK14aQdDlxlb69PXJPxMp9AmwavnVBUznhbLRzzcjjmvQcZKcUSa19yI=",
+        "wxKey": "wxf9cfe9377c2396ee"
+      }
+    },
+    {
+      "name": "system.audio"
+    },
+    {
+      "name": "system.sensor"
+    },
+    {
+      "name": "system.image"
+    },
+    {
+      "name": "system.vibrator"
+    },
+    {
+      "name": "system.geolocation"
+    },
+    {
+      "name": "system.share"
+    }
+  ],
+  "permissions": [
+    {
+      "origin": "*"
+    }
+  ],
+  "template/official": "demo-template",
+  "config": {
+    "logLevel": "debug",
+    "debug": false
+  },
+  "router": {
+    "entry": "pagesC/Start",
+    "pages": {
+      "pagesA/Main": {
+        "component": "index"
+      },
+      "pagesA/WelfareNew": {
+        "component": "index"
+      },
+      "pagesA/MyIncome": {
+        "component": "index"
+      },
+      "pagesA/CashOut": {
+        "component": "index"
+      },
+      "pagesA/CashRecord": {
+        "component": "index"
+      },
+      "pagesB/Login": {
+        "component": "index"
+      },
+      "pagesB/Activity": {
+        "component": "index"
+      },
+      "pagesB/FeedBack": {
+        "component": "index"
+      },
+      "pagesB/Privacy": {
+        "component": "index"
+      },
+      "pagesB/Customer-Service": {
+        "component": "index"
+      },
+      "pagesC/Start": {
+        "component": "index"
+      },
+      "UnionAd/AdPage": {
+        "component": "index"
+      },
+      "UnionAd/AdLanding": {
+        "component": "index"
+      },
+      "UnionAd/AdReward": {
+        "component": "index"
+      },
+      "pagesA/Welfare": {
+        "component": "index"
+      },
+      "pagesA/AstroDetail": {
+        "component": "index"
+      },
+      "pagesA/CpDetail": {
+        "component": "index"
+      },
+      "pagesA/AssessPage": {
+        "component": "index"
+      },
+      "pagesA/AssessPageNew": {
+        "component": "index"
+      },
+      "pagesA/Result": {
+        "component": "index"
+      },
+      "pagesA/ResultNew": {
+        "component": "index"
+      },
+      "pagesA/BackgroundPage": {
+        "component": "index"
+      },
+      "pagesA/VideoBackgroundPage": {
+        "component": "index"
+      }
+    },
+    "widgets": {}
+  },
+  "subpackages": [
+    {
+      "name": "pkgB",
+      "resource": "pagesB"
+    },
+    {
+      "name": "pkgA",
+      "resource": "pagesA"
+    }
+  ],
+  "display": {
+    "themeMode": 0,
+    "menu": false,
+    "titleBar": false,
+    "statusBarImmersive": true,
+    "statusBarBackgroundOpacity": 0,
+    "statusBarTextStyle": "dark",
+    "menuBarData": {
+      "menuBar": false
+    },
+    "pages": {
+      "pagesA/Welfare": {
+        "fullScreen": true,
+        "fitCutout": "portrait|landscape",
+        "statusBarTextStyle": "light",
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "pagesC/Read": {
+        "fullScreen": true,
+        "fitCutout": "portrait|landscape",
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "pagesA/AssessPage": {
+        "fullScreen": true,
+        "fitCutout": "portrait|landscape",
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "pagesA/Main": {
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "pagesA/WelfareNew": {
+        "fullScreen": true,
+        "fitCutout": "portrait|landscape",
+        "statusBarTextStyle": "light",
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "pagesB/Lottery": {
+        "fullScreen": true,
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "UnionAd/AdPage": {
+        "fullScreen": true,
+        "titleBar": false,
+        "statusBarImmersive": true,
+        "menu": false,
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "UnionAd/AdReward": {
+        "fullScreen": true,
+        "titleBar": false,
+        "statusBarImmersive": true,
+        "menu": false,
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "UnionAd/AdLanding": {
+        "fullScreen": true,
+        "titleBar": false,
+        "statusBarImmersive": true,
+        "menu": false,
+        "menuBarData": {
+          "menuBar": false
+        }
+      },
+      "pagesC/Empty": {
+        "fullScreen": true,
+        "fitCutout": "portrait|landscape"
+      },
+      "pagesA/BackgroundPage": {
+        "fullScreen": true,
+        "fitCutout": "portrait|landscape",
+        "statusBarTextStyle": "auto",
+        "menuBarData": {
+          "menuBar": true
+        }
+      },
+      "pagesA/VideoBackgroundPage": {
+        "fullScreen": true,
+        "fitCutout": "portrait|landscape",
+        "statusBarTextStyle": "auto",
+        "menuBarData": {
+          "menuBar": true
+        }
+      }
+    }
+  },
+  "packageInfo": {
+    "originType": "quickapp-ide",
+    "toolkit": "1.9.14",
+    "timeStamp": "2024-08-16T03:41:51.452Z",
+    "node": "v16.13.0",
+    "platform": "win32",
+    "arch": "x64"
+  }
+}

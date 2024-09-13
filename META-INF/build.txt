@@ -1,0 +1,6 @@
+originType=quickapp-ide
+toolkit=1.9.14
+timeStamp=2024-08-16T03:41:51.452Z
+node=v16.13.0
+platform=win32
+arch=x64
